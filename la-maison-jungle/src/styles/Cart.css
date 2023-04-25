@@ -1,0 +1,46 @@
+.lmj-cart {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-width: 300px;
+  color: #fff;
+  background-color: #31b572;
+}
+
+.lmj-openButton {
+  position: relative;
+  max-height: 80px;
+  min-width: 300px;
+  background-color: #fff;
+  border: none;
+  display: flex;
+}
+
+.lmj-basketButton {
+  position: relative;
+  left: 20px;
+  top: 20px;
+  max-width: 50px;
+}
+
+.lmj-closeButton {
+  position: relative;
+  align-self: flex-end;
+}
+
+.lmj-plant-bin {
+  position: relative;
+  bottom: -3px;
+  max-width: 18px;
+}
+
+.lmj-plant-bin:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.lmj-button-plant-bin {
+  border: 0px;
+  background-color: #fff;
+  border-radius: 10rem;
+}

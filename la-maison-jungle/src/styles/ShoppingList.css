@@ -1,0 +1,41 @@
+.lmj-plant-list {
+	list-style-type: none;
+	padding: 32px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	text-align: center;
+}
+
+.lmj-categories {
+	margin-top: 50px;
+	text-align: center;
+}
+
+.lmj-button-add {
+	position: relative;
+	top: -20px;
+	padding: 5px 10px;
+	color: #fff;
+	border: 0px;
+	border-radius: 10rem;
+	background-color: #31b572;
+}
+
+.lmj-button-add:hover {
+	cursor: pointer;
+}
+
+.lmj-button-add:active {
+	cursor: pointer;
+	animation: 3s ease-in 1s 2 reverse both paused click;
+}
+
+@keyframes click {
+	0% {
+		color: blue;
+	}
+	100% {
+		color: red;
+	}
+}
